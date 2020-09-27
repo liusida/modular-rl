@@ -1,6 +1,6 @@
-# This repo replace Mujoco by PyBullet
+# This repo replaces Mujoco by PyBullet
 
-(WHY? Because poor grads like open source!)
+(WHY? Because poor grads need open source tools!)
 
 Modification:
 
@@ -27,16 +27,22 @@ Modification:
 
 ```bash
 # clone this repo
-git clone https://github.com/liusida/modular-rl.git modular-rl-sida
-cd modular-rl-sida
+git clone https://github.com/liusida/modular-rl.git modular-rl-bullet
+cd modular-rl-bullet
 # create a clean environment
-conda create -n modular-rl-sida python=3.6
-source activate modular-rl-sida
+conda create -n modular-rl-bullet python=3.6
+source activate modular-rl-bullet
 # install python dependencies, this will take a while
 pip install -r requirement.txt
 cd src
 # run all 3 hoppers
 python main.py --morphologies=hopper --render
+```
+
+If you have trouble installing mp4py, use conda install:
+
+```bash
+conda install -c anaconda mpi4py
 ```
 
 # Original Readme:
