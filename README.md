@@ -1,3 +1,46 @@
+# This repo replace Mujoco by PyBullet
+
+(WHY? Because poor grads like open source!)
+
+Modification:
+
+1. Create `envs` folder, copy Mujoco xml files to `envs/xmls`, and change xml files for compatiblility. 
+    
+    (Refer to [This Note](src/envs/xmls/modification_needed_for_vanilla_mujoco_xml))
+
+2. Change `ModularEnv.py`, using PyBullet instead of Mujoco.
+    
+    (ALERT: `observation state`, `alive condition` have been changed!)
+
+    2.1 Observation state: PyBullet provides less information for the client, there's no `rotational velocity`. And one-hot mask information for each body part has been changed to the index number of that part.
+
+    2.2 Alive condition: Gym has a very specific alive condition including how high is the center of mass, the angle of the body. In this context, we could have arbitrary body, so I changed the alive condition to: if the "torso"(root) touch the ground, then done. (`self.robot.feet_contact[0]`)
+
+
+3. Add `--render` to available argument lists, in case you want to see the robot instead of just numbers.
+
+    (Use Ctrl+Mouse Left to adjust camera.)
+
+    (too fast? Uncomment ModularEnv.py #104, so it'll sleep a while at every step)
+
+4. To start, try:
+
+```bash
+# clone this repo
+git clone https://github.com/liusida/modular-rl.git modular-rl-sida
+cd modular-rl-sida
+# create a clean environment
+conda create -n modular-rl-sida python=3.6
+source activate modular-rl-sida
+# install python dependencies, this will take a while
+pip install -r requirement.txt
+cd src
+# run all 3 hoppers
+python main.py --morphologies=hopper --render
+```
+
+# Original Readme:
+
 ## One Policy to Control Them All:<br/>Shared Modular Policies for Agent-Agnostic Control ##
 ### ICML 2020
 #### [[Project Page]](https://huangwl18.github.io/modular-rl/) [[Paper]](https://www.cs.cmu.edu/~dpathak/papers/modular-rl.pdf) [[Demo Video]](https://youtu.be/9YiZZ_8guq8) [[Long Oral Talk]](https://youtu.be/gEeQ0nzalzo)

@@ -29,7 +29,7 @@ def findMaxChildren(env_names, graphs):
     return max_children
 
 
-def registerEnvs(env_names, max_episode_steps, custom_xml):
+def registerEnvs(env_names, max_episode_steps, custom_xml, render=False):
     """register the MuJoCo envs with Gym and return the per-limb observation size and max action value (for modular policy training)"""
     # get all paths to xmls (handle the case where the given path is a directory containing multiple xml files)
     paths_to_register = []
@@ -49,20 +49,22 @@ def registerEnvs(env_names, max_episode_steps, custom_xml):
     for xml in paths_to_register:
         env_name = os.path.basename(xml)[:-4]
         env_file = env_name
+        env_file = "ModularEnv"
         # create a copy of modular environment for custom xml model
-        if not os.path.exists(os.path.join(ENV_DIR, '{}.py'.format(env_name))):
-            # create a duplicate of gym environment file for each env (necessary for avoiding bug in gym)
-            copyfile(BASE_MODULAR_ENV_PATH, '{}.py'.format(os.path.join(ENV_DIR, env_name)))
-        params = {'xml': os.path.abspath(xml)}
+        # if not os.path.exists(os.path.join(ENV_DIR, '{}.py'.format(env_name))):
+        #     # create a duplicate of gym environment file for each env (necessary for avoiding bug in gym)
+        #     copyfile(BASE_MODULAR_ENV_PATH, '{}.py'.format(os.path.join(ENV_DIR, env_name)))
+        params = {'xml': os.path.abspath(xml), 'render': render}
         # register with gym
         register(id=("%s-v0" % env_name),
                  max_episode_steps=max_episode_steps,
-                 entry_point="environments.%s:ModularEnv" % env_file,
+                 entry_point="envs.%s:ModularEnv" % env_file,
                  kwargs=params)
-        env = wrappers.IdentityWrapper(gym.make("environments:%s-v0" % env_name))
+        env = wrappers.IdentityWrapper(gym.make("envs:%s-v0" % env_name))
         # the following is the same for each env
         limb_obs_size = env.limb_obs_size
         max_action = env.max_action
+        env.close()
     return limb_obs_size, max_action
 
 

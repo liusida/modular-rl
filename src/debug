@@ -1,0 +1,1528 @@
+##################################################
+training envs: ['hopper_3']
+##################################################
+*** training from scratch ***
+Changing args.clear_replay_buffer from -inf to 0.0.
+Changing args.lr from 0.0005 to 0.01.
+Changing args.expl_noise from 0.126 to 0.2.
+Changing args.batch_size from 100 to 1500.
+Changing args.start_timesteps from 10000.0 to 1.0.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.79, TotalT: 20, EpisodeNum: 1, SampleNum: 21, ReplayBSize: 21
+hopper_3 === EpisodeT: 20, Reward: 42.07
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 18.21, TotalT: 57, EpisodeNum: 2, SampleNum: 59, ReplayBSize: 59
+hopper_3 === EpisodeT: 37, Reward: -8.58
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 18.32, TotalT: 83, EpisodeNum: 3, SampleNum: 86, ReplayBSize: 86
+hopper_3 === EpisodeT: 26, Reward: 1.47
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 18.14, TotalT: 88, EpisodeNum: 4, SampleNum: 92, ReplayBSize: 92
+hopper_3 === EpisodeT: 5, Reward: 16.98
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 18.00, TotalT: 93, EpisodeNum: 5, SampleNum: 98, ReplayBSize: 98
+hopper_3 === EpisodeT: 5, Reward: 16.34
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.87, TotalT: 98, EpisodeNum: 6, SampleNum: 104, ReplayBSize: 104
+hopper_3 === EpisodeT: 5, Reward: 16.90
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.76, TotalT: 103, EpisodeNum: 7, SampleNum: 110, ReplayBSize: 110
+hopper_3 === EpisodeT: 5, Reward: 16.70
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.64, TotalT: 108, EpisodeNum: 8, SampleNum: 116, ReplayBSize: 116
+hopper_3 === EpisodeT: 5, Reward: 16.92
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.57, TotalT: 114, EpisodeNum: 9, SampleNum: 123, ReplayBSize: 123
+hopper_3 === EpisodeT: 6, Reward: 14.62
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.47, TotalT: 119, EpisodeNum: 10, SampleNum: 129, ReplayBSize: 129
+hopper_3 === EpisodeT: 5, Reward: 16.54
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.38, TotalT: 124, EpisodeNum: 11, SampleNum: 135, ReplayBSize: 135
+hopper_3 === EpisodeT: 5, Reward: 16.34
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.32, TotalT: 129, EpisodeNum: 12, SampleNum: 141, ReplayBSize: 141
+hopper_3 === EpisodeT: 5, Reward: 16.80
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.25, TotalT: 134, EpisodeNum: 13, SampleNum: 147, ReplayBSize: 147
+hopper_3 === EpisodeT: 5, Reward: 16.58
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.20, TotalT: 139, EpisodeNum: 14, SampleNum: 153, ReplayBSize: 153
+hopper_3 === EpisodeT: 5, Reward: 16.85
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 144, EpisodeNum: 15, SampleNum: 159, ReplayBSize: 159
+hopper_3 === EpisodeT: 5, Reward: 16.64
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.07, TotalT: 149, EpisodeNum: 16, SampleNum: 165, ReplayBSize: 165
+hopper_3 === EpisodeT: 5, Reward: 16.74
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.02, TotalT: 154, EpisodeNum: 17, SampleNum: 171, ReplayBSize: 171
+hopper_3 === EpisodeT: 5, Reward: 16.85
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.98, TotalT: 159, EpisodeNum: 18, SampleNum: 177, ReplayBSize: 177
+hopper_3 === EpisodeT: 5, Reward: 15.91
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.95, TotalT: 164, EpisodeNum: 19, SampleNum: 183, ReplayBSize: 183
+hopper_3 === EpisodeT: 5, Reward: 16.67
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.91, TotalT: 169, EpisodeNum: 20, SampleNum: 189, ReplayBSize: 189
+hopper_3 === EpisodeT: 5, Reward: 17.15
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.87, TotalT: 174, EpisodeNum: 21, SampleNum: 195, ReplayBSize: 195
+hopper_3 === EpisodeT: 5, Reward: 16.63
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.84, TotalT: 179, EpisodeNum: 22, SampleNum: 201, ReplayBSize: 201
+hopper_3 === EpisodeT: 5, Reward: 17.12
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.83, TotalT: 184, EpisodeNum: 23, SampleNum: 207, ReplayBSize: 207
+hopper_3 === EpisodeT: 5, Reward: 17.19
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.80, TotalT: 189, EpisodeNum: 24, SampleNum: 213, ReplayBSize: 213
+hopper_3 === EpisodeT: 5, Reward: 17.06
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.77, TotalT: 194, EpisodeNum: 25, SampleNum: 219, ReplayBSize: 219
+hopper_3 === EpisodeT: 5, Reward: 16.89
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.72, TotalT: 199, EpisodeNum: 26, SampleNum: 225, ReplayBSize: 225
+hopper_3 === EpisodeT: 5, Reward: 16.71
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.67, TotalT: 204, EpisodeNum: 27, SampleNum: 231, ReplayBSize: 231
+hopper_3 === EpisodeT: 5, Reward: 17.12
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.64, TotalT: 209, EpisodeNum: 28, SampleNum: 237, ReplayBSize: 237
+hopper_3 === EpisodeT: 5, Reward: 16.85
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.61, TotalT: 214, EpisodeNum: 29, SampleNum: 243, ReplayBSize: 243
+hopper_3 === EpisodeT: 5, Reward: 17.14
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 219, EpisodeNum: 30, SampleNum: 249, ReplayBSize: 249
+hopper_3 === EpisodeT: 5, Reward: 16.93
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.53, TotalT: 224, EpisodeNum: 31, SampleNum: 255, ReplayBSize: 255
+hopper_3 === EpisodeT: 5, Reward: 16.86
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.49, TotalT: 229, EpisodeNum: 32, SampleNum: 261, ReplayBSize: 261
+hopper_3 === EpisodeT: 5, Reward: 16.80
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.50, TotalT: 234, EpisodeNum: 33, SampleNum: 267, ReplayBSize: 267
+hopper_3 === EpisodeT: 5, Reward: 16.67
+Changing args.expl_noise from 0.2 to 3.0.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.51, TotalT: 239, EpisodeNum: 34, SampleNum: 273, ReplayBSize: 273
+hopper_3 === EpisodeT: 5, Reward: 16.82
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.64, TotalT: 261, EpisodeNum: 35, SampleNum: 296, ReplayBSize: 296
+hopper_3 === EpisodeT: 22, Reward: 21.27
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.64, TotalT: 267, EpisodeNum: 36, SampleNum: 303, ReplayBSize: 303
+hopper_3 === EpisodeT: 6, Reward: 16.69
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.62, TotalT: 272, EpisodeNum: 37, SampleNum: 309, ReplayBSize: 309
+hopper_3 === EpisodeT: 5, Reward: 16.58
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 278, EpisodeNum: 38, SampleNum: 316, ReplayBSize: 316
+hopper_3 === EpisodeT: 6, Reward: 16.03
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 283, EpisodeNum: 39, SampleNum: 322, ReplayBSize: 322
+hopper_3 === EpisodeT: 5, Reward: 16.89
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.61, TotalT: 290, EpisodeNum: 40, SampleNum: 330, ReplayBSize: 330
+hopper_3 === EpisodeT: 7, Reward: 14.24
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 296, EpisodeNum: 41, SampleNum: 337, ReplayBSize: 337
+hopper_3 === EpisodeT: 6, Reward: 15.30
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.62, TotalT: 305, EpisodeNum: 42, SampleNum: 347, ReplayBSize: 347
+hopper_3 === EpisodeT: 9, Reward: 19.29
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 309, EpisodeNum: 43, SampleNum: 352, ReplayBSize: 352
+hopper_3 === EpisodeT: 4, Reward: 18.40
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 316, EpisodeNum: 44, SampleNum: 360, ReplayBSize: 360
+hopper_3 === EpisodeT: 7, Reward: 17.04
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.57, TotalT: 323, EpisodeNum: 45, SampleNum: 368, ReplayBSize: 368
+hopper_3 === EpisodeT: 7, Reward: 15.28
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.55, TotalT: 328, EpisodeNum: 46, SampleNum: 374, ReplayBSize: 374
+hopper_3 === EpisodeT: 5, Reward: 18.57
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 341, EpisodeNum: 47, SampleNum: 388, ReplayBSize: 388
+hopper_3 === EpisodeT: 13, Reward: 21.00
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 346, EpisodeNum: 48, SampleNum: 394, ReplayBSize: 394
+hopper_3 === EpisodeT: 5, Reward: 16.96
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 353, EpisodeNum: 49, SampleNum: 402, ReplayBSize: 402
+hopper_3 === EpisodeT: 7, Reward: 16.86
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.57, TotalT: 359, EpisodeNum: 50, SampleNum: 409, ReplayBSize: 409
+hopper_3 === EpisodeT: 6, Reward: 16.37
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 372, EpisodeNum: 51, SampleNum: 423, ReplayBSize: 423
+hopper_3 === EpisodeT: 13, Reward: 17.47
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 377, EpisodeNum: 52, SampleNum: 429, ReplayBSize: 429
+hopper_3 === EpisodeT: 5, Reward: 16.10
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 386, EpisodeNum: 53, SampleNum: 439, ReplayBSize: 439
+hopper_3 === EpisodeT: 9, Reward: 13.54
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 392, EpisodeNum: 54, SampleNum: 446, ReplayBSize: 446
+hopper_3 === EpisodeT: 6, Reward: 18.38
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 398, EpisodeNum: 55, SampleNum: 453, ReplayBSize: 453
+hopper_3 === EpisodeT: 6, Reward: 17.88
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.59, TotalT: 405, EpisodeNum: 56, SampleNum: 461, ReplayBSize: 461
+hopper_3 === EpisodeT: 7, Reward: 16.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 410, EpisodeNum: 57, SampleNum: 467, ReplayBSize: 467
+hopper_3 === EpisodeT: 5, Reward: 17.72
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.62, TotalT: 424, EpisodeNum: 58, SampleNum: 482, ReplayBSize: 482
+hopper_3 === EpisodeT: 14, Reward: 10.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.61, TotalT: 430, EpisodeNum: 59, SampleNum: 489, ReplayBSize: 489
+hopper_3 === EpisodeT: 6, Reward: 17.22
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.64, TotalT: 438, EpisodeNum: 60, SampleNum: 498, ReplayBSize: 498
+hopper_3 === EpisodeT: 8, Reward: 12.91
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.63, TotalT: 445, EpisodeNum: 61, SampleNum: 506, ReplayBSize: 506
+hopper_3 === EpisodeT: 7, Reward: 14.64
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.62, TotalT: 451, EpisodeNum: 62, SampleNum: 513, ReplayBSize: 513
+hopper_3 === EpisodeT: 6, Reward: 18.03
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.63, TotalT: 460, EpisodeNum: 63, SampleNum: 523, ReplayBSize: 523
+hopper_3 === EpisodeT: 9, Reward: 12.99
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.64, TotalT: 472, EpisodeNum: 64, SampleNum: 536, ReplayBSize: 536
+hopper_3 === EpisodeT: 12, Reward: 12.59
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.63, TotalT: 476, EpisodeNum: 65, SampleNum: 541, ReplayBSize: 541
+hopper_3 === EpisodeT: 4, Reward: 17.84
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.62, TotalT: 481, EpisodeNum: 66, SampleNum: 547, ReplayBSize: 547
+hopper_3 === EpisodeT: 5, Reward: 17.10
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.61, TotalT: 487, EpisodeNum: 67, SampleNum: 554, ReplayBSize: 554
+hopper_3 === EpisodeT: 6, Reward: 18.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 492, EpisodeNum: 68, SampleNum: 560, ReplayBSize: 560
+hopper_3 === EpisodeT: 5, Reward: 17.15
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.60, TotalT: 498, EpisodeNum: 69, SampleNum: 567, ReplayBSize: 567
+hopper_3 === EpisodeT: 6, Reward: 15.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.59, TotalT: 502, EpisodeNum: 70, SampleNum: 572, ReplayBSize: 572
+hopper_3 === EpisodeT: 4, Reward: 18.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.58, TotalT: 509, EpisodeNum: 71, SampleNum: 580, ReplayBSize: 580
+hopper_3 === EpisodeT: 7, Reward: 17.94
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.59, TotalT: 522, EpisodeNum: 72, SampleNum: 594, ReplayBSize: 594
+hopper_3 === EpisodeT: 13, Reward: 8.16
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.59, TotalT: 529, EpisodeNum: 73, SampleNum: 602, ReplayBSize: 602
+hopper_3 === EpisodeT: 7, Reward: 18.02
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.67, TotalT: 561, EpisodeNum: 74, SampleNum: 635, ReplayBSize: 635
+hopper_3 === EpisodeT: 32, Reward: 4.24
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.67, TotalT: 570, EpisodeNum: 75, SampleNum: 645, ReplayBSize: 645
+hopper_3 === EpisodeT: 9, Reward: 13.96
+Changing args.expl_noise from 3.0 to 10.0.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.75, TotalT: 596, EpisodeNum: 76, SampleNum: 672, ReplayBSize: 672
+hopper_3 === EpisodeT: 26, Reward: 40.89
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.76, TotalT: 608, EpisodeNum: 77, SampleNum: 685, ReplayBSize: 685
+hopper_3 === EpisodeT: 12, Reward: 19.17
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.83, TotalT: 638, EpisodeNum: 78, SampleNum: 716, ReplayBSize: 716
+hopper_3 === EpisodeT: 30, Reward: -5.96
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.88, TotalT: 661, EpisodeNum: 79, SampleNum: 740, ReplayBSize: 740hopper_3-v0 done. Traveled distance: This episode: 0.53, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.02, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.19, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.51, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.51, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.34, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.32, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.24, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.40, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.53, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.07, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.14, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.35, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.28, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.51, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.30, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.53
+hopper_3-v0 done. Traveled distance: This episode: 0.55, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.52, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.52, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.52, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.40, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.02, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.12, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3 === EpisodeT: 23, Reward: 10.73
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.90, TotalT: 673, EpisodeNum: 80, SampleNum: 753, ReplayBSize: 753
+hopper_3 === EpisodeT: 12, Reward: 11.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.95, TotalT: 695, EpisodeNum: 81, SampleNum: 776, ReplayBSize: 776
+hopper_3 === EpisodeT: 22, Reward: -1.52
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.00, TotalT: 719, EpisodeNum: 82, SampleNum: 801, ReplayBSize: 801
+hopper_3 === EpisodeT: 24, Reward: 13.31
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.00, TotalT: 732, EpisodeNum: 83, SampleNum: 815, ReplayBSize: 815
+hopper_3 === EpisodeT: 13, Reward: 10.21
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.01, TotalT: 742, EpisodeNum: 84, SampleNum: 826, ReplayBSize: 826
+hopper_3 === EpisodeT: 10, Reward: 16.66
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 16.99, TotalT: 746, EpisodeNum: 85, SampleNum: 831, ReplayBSize: 831
+hopper_3 === EpisodeT: 4, Reward: 18.34
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.01, TotalT: 760, EpisodeNum: 86, SampleNum: 846, ReplayBSize: 846
+hopper_3 === EpisodeT: 14, Reward: 5.83
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.02, TotalT: 772, EpisodeNum: 87, SampleNum: 859, ReplayBSize: 859
+hopper_3 === EpisodeT: 12, Reward: 20.23
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.04, TotalT: 787, EpisodeNum: 88, SampleNum: 875, ReplayBSize: 875
+hopper_3 === EpisodeT: 15, Reward: 7.07
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.03, TotalT: 795, EpisodeNum: 89, SampleNum: 884, ReplayBSize: 884
+hopper_3 === EpisodeT: 8, Reward: 13.29
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.05, TotalT: 812, EpisodeNum: 90, SampleNum: 902, ReplayBSize: 902
+hopper_3 === EpisodeT: 17, Reward: 15.63
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.05, TotalT: 822, EpisodeNum: 91, SampleNum: 913, ReplayBSize: 913
+hopper_3 === EpisodeT: 10, Reward: 42.08
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.04, TotalT: 826, EpisodeNum: 92, SampleNum: 918, ReplayBSize: 918
+hopper_3 === EpisodeT: 4, Reward: 20.44
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.04, TotalT: 835, EpisodeNum: 93, SampleNum: 928, ReplayBSize: 928
+hopper_3 === EpisodeT: 9, Reward: 20.26
+Changing args.expl_noise from 10.0 to 100.0.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.03, TotalT: 842, EpisodeNum: 94, SampleNum: 936, ReplayBSize: 936
+hopper_3 === EpisodeT: 7, Reward: 21.35
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.04, TotalT: 851, EpisodeNum: 95, SampleNum: 946, ReplayBSize: 946
+hopper_3 === EpisodeT: 9, Reward: 13.54
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.06, TotalT: 868, EpisodeNum: 96, SampleNum: 964, ReplayBSize: 964
+hopper_3 === EpisodeT: 17, Reward: 18.77
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.05, TotalT: 873, EpisodeNum: 97, SampleNum: 970, ReplayBSize: 970
+hopper_3 === EpisodeT: 5, Reward: 17.73
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.04, TotalT: 879, EpisodeNum: 98, SampleNum: 977, ReplayBSize: 977
+hopper_3 === EpisodeT: 6, Reward: 15.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 926, EpisodeNum: 99, SampleNum: 1025, ReplayBSize: 1025
+hopper_3 === EpisodeT: 47, Reward: -9.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 932, EpisodeNum: 100, SampleNum: 1032, ReplayBSize: 1032
+hopper_3 === EpisodeT: 6, Reward: 19.22
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 937, EpisodeNum: 101, SampleNum: 1038, ReplayBSize: 1038
+hopper_3 === EpisodeT: 5, Reward: 17.17
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 945, EpisodeNum: 102, SampleNum: 1047, ReplayBSize: 1047
+hopper_3 === EpisodeT: 8, Reward: 19.79
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 952, EpisodeNum: 103, SampleNum: 1055, ReplayBSize: 1055
+hopper_3 === EpisodeT: 7, Reward: 19.43
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 967, EpisodeNum: 104, SampleNum: 1071, ReplayBSize: 1071
+hopper_3 === EpisodeT: 15, Reward: 19.23
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 973, EpisodeNum: 105, SampleNum: 1078, ReplayBSize: 1078
+hopper_3 === EpisodeT: 6, Reward: 16.42
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 993, EpisodeNum: 106, SampleNum: 1099, ReplayBSize: 1099
+hopper_3 === EpisodeT: 20, Reward: -3.44
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1001, EpisodeNum: 107, SampleNum: 1108, ReplayBSize: 1108
+hopper_3 === EpisodeT: 8, Reward: 19.90
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1005, EpisodeNum: 108, SampleNum: 1113, ReplayBSize: 1113
+hopper_3 === EpisodeT: 4, Reward: 18.60
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1013, EpisodeNum: 109, SampleNum: 1122, ReplayBSize: 1122
+hopper_3 === EpisodeT: 8, Reward: 17.44
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1019, EpisodeNum: 110, SampleNum: 1129, ReplayBSize: 1129
+hopper_3 === EpisodeT: 6, Reward: 19.18
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1028, EpisodeNum: 111, SampleNum: 1139, ReplayBSize: 1139
+hopper_3 === EpisodeT: 9, Reward: 12.35
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 1040, EpisodeNum: 112, SampleNum: 1152, ReplayBSize: 1152
+hopper_3 === EpisodeT: 12, Reward: 17.76
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 1049, EpisodeNum: 113, SampleNum: 1162, ReplayBSize: 1162
+hopper_3 === EpisodeT: 9, Reward: 14.99
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 1057, EpisodeNum: 114, SampleNum: 1171, ReplayBSize: 1171
+hopper_3 === EpisodeT: 8, Reward: 18.60
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1073, EpisodeNum: 115, SampleNum: 1188, ReplayBSize: 1188
+hopper_3 === EpisodeT: 16, Reward: 11.75
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1086, EpisodeNum: 116, SampleNum: 1202, ReplayBSize: 1202
+hopper_3 === EpisodeT: 13, Reward: 8.83
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1091, EpisodeNum: 117, SampleNum: 1208, ReplayBSize: 1208
+hopper_3 === EpisodeT: 5, Reward: 20.13
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1096, EpisodeNum: 118, SampleNum: 1214, ReplayBSize: 1214
+hopper_3 === EpisodeT: 5, Reward: 17.26
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1113, EpisodeNum: 119, SampleNum: 1232, ReplayBSize: 1232
+hopper_3 === EpisodeT: 17, Reward: 11.20
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1120, EpisodeNum: 120, SampleNum: 1240, ReplayBSize: 1240
+hopper_3 === EpisodeT: 7, Reward: 16.23
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.09, TotalT: 1125, EpisodeNum: 121, SampleNum: 1246, ReplayBSize: 1246
+hopper_3 === EpisodeT: 5, Reward: 18.67
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1143, EpisodeNum: 122, SampleNum: 1265, ReplayBSize: 1265
+hopper_3 === EpisodeT: 18, Reward: 20.80
+Changing args.expl_noise from 100.0 to 3.0.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1154, EpisodeNum: 123, SampleNum: 1277, ReplayBSize: 1277
+hopper_3 === EpisodeT: 11, Reward: 14.94
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1164, EpisodeNum: 124, SampleNum: 1288, ReplayBSize: 1288
+hopper_3 === EpisodeT: 10, Reward: 18.02
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1172, EpisodeNum: 125, SampleNum: 1297, ReplayBSize: 1297
+hopper_3 === EpisodeT: 8, Reward: 13.49
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1179, EpisodeNum: 126, SampleNum: 1305, ReplayBSize: 1305
+hopper_3 === EpisodeT: 7, Reward: 12.22
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1194, EpisodeNum: 127, SampleNum: 1321, ReplayBSize: 1321
+hopper_3 === EpisodeT: 15, Reward: 15.05
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1200, EpisodeNum: 128, SampleNum: 1328, ReplayBSize: 1328
+hopper_3 === EpisodeT: 6, Reward: 17.89
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1209, EpisodeNum: 129, SampleNum: 1338, ReplayBSize: 1338
+hopper_3 === EpisodeT: 9, Reward: 12.76
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1225, EpisodeNum: 130, SampleNum: 1355, ReplayBSize: 1355
+hopper_3 === EpisodeT: 16, Reward: 15.38
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1231, EpisodeNum: 131, SampleNum: 1362, ReplayBSize: 1362
+hopper_3 === EpisodeT: 6, Reward: 18.74
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1246, EpisodeNum: 132, SampleNum: 1378, ReplayBSize: 1378
+hopper_3 === EpisodeT: 15, Reward: 12.51
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1250, EpisodeNum: 133, SampleNum: 1383, ReplayBSize: 1383
+hopper_3 === EpisodeT: 4, Reward: 18.59
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1263, EpisodeNum: 134, SampleNum: 1397, ReplayBSize: 1397
+hopper_3 === EpisodeT: 13, Reward: 11.16
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 1274, EpisodeNum: 135, SampleNum: 1409, ReplayBSize: 1409
+hopper_3 === EpisodeT: 11, Reward: 10.91
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1293, EpisodeNum: 136, SampleNum: 1429, ReplayBSize: 1429
+hopper_3 === EpisodeT: 19, Reward: 7.85
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1305, EpisodeNum: 137, SampleNum: 1442, ReplayBSize: 1442
+hopper_3 === EpisodeT: 12, Reward: 13.17
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1319, EpisodeNum: 138, SampleNum: 1457, ReplayBSize: 1457
+hopper_3 === EpisodeT: 14, Reward: 11.74
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1328, EpisodeNum: 139, SampleNum: 1467, ReplayBSize: 1467
+hopper_3 === EpisodeT: 9, Reward: 15.70
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1338, EpisodeNum: 140, SampleNum: 1478, ReplayBSize: 1478
+hopper_3 === EpisodeT: 10, Reward: 12.70
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1348, EpisodeNum: 141, SampleNum: 1489, ReplayBSize: 1489
+hopper_3 === EpisodeT: 10, Reward: 14.83
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1355, EpisodeNum: 142, SampleNum: 1497, ReplayBSize: 1497
+hopper_3 === EpisodeT: 7, Reward: 18.71
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1364, EpisodeNum: 143, SampleNum: 1507, ReplayBSize: 1507
+hopper_3 === EpisodeT: 9, Reward: 19.82
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1374, EpisodeNum: 144, SampleNum: 1518, ReplayBSize: 1518
+hopper_3 === EpisodeT: 10, Reward: 11.55
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1383, EpisodeNum: 145, SampleNum: 1528, ReplayBSize: 1528
+hopper_3 === EpisodeT: 9, Reward: 15.64
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1396, EpisodeNum: 146, SampleNum: 1542, ReplayBSize: 1542
+hopper_3 === EpisodeT: 13, Reward: 11.18
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1404, EpisodeNum: 147, SampleNum: 1551, ReplayBSize: 1551
+hopper_3 === EpisodeT: 8, Reward: 16.72
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1414, EpisodeNum: 148, SampleNum: 1562, ReplayBSize: 1562
+hopper_3 === EpisodeT: 10, Reward: 13.91
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1427, EpisodeNum: 149, SampleNum: 1576, ReplayBSize: 1576
+hopper_3 === EpisodeT: 13, Reward: 17.83
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1444, EpisodeNum: 150, SampleNum: 1594, ReplayBSize: 1594
+hopper_3 === EpisodeT: 17, Reward: 9.88
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1452, EpisodeNum: 151, SampleNum: 1603, ReplayBSize: 1603
+hopper_3 === EpisodeT: 8, Reward: 15.37
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1462, EpisodeNum: 152, SampleNum: 1614, ReplayBSize: 1614
+hopper_3 === EpisodeT: 10, Reward: 15.90
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1467, EpisodeNum: 153, SampleNum: 1620, ReplayBSize: 1620
+hopper_3 === EpisodeT: 5, Reward: 18.22
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1474, EpisodeNum: 154, SampleNum: 1628, ReplayBSize: 1628
+hopper_3 === EpisodeT: 7, Reward: 14.55
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1487, EpisodeNum: 155, SampleNum: 1642, ReplayBSize: 1642
+hopper_3 === EpisodeT: 13, Reward: 9.76
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1495, EpisodeNum: 156, SampleNum: 1651, ReplayBSize: 1651
+hopper_3 === EpisodeT: 8, Reward: 12.87
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1504, EpisodeNum: 157, SampleNum: 1661, ReplayBSize: 1661
+hopper_3 === EpisodeT: 9, Reward: 13.79
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1512, EpisodeNum: 158, SampleNum: 1670, ReplayBSize: 1670
+hopper_3 === EpisodeT: 8, Reward: 14.96
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1521, EpisodeNum: 159, SampleNum: 1680, ReplayBSize: 1680
+hopper_3 === EpisodeT: 9, Reward: 19.73
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1526, EpisodeNum: 160, SampleNum: 1686, ReplayBSize: 1686
+hopper_3 === EpisodeT: 5, Reward: 19.09
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1537, EpisodeNum: 161, SampleNum: 1698, ReplayBSize: 1698
+hopper_3 === EpisodeT: 11, Reward: 13.27
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1541, EpisodeNum: 162, SampleNum: 1703, ReplayBSize: 1703
+hopper_3 === EpisodeT: 4, Reward: 18.34
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1554, EpisodeNum: 163, SampleNum: 1717, ReplayBSize: 1717
+hopper_3 === EpisodeT: 13, Reward: 11.07
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1563, EpisodeNum: 164, SampleNum: 1727, ReplayBSize: 1727
+hopper_3 === EpisodeT: 9, Reward: 15.73
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1576, EpisodeNum: 165, SampleNum: 1741, ReplayBSize: 1741
+hopper_3 === EpisodeT: 13, Reward: 12.25
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1582, EpisodeNum: 166, SampleNum: 1748, ReplayBSize: 1748
+hopper_3 === EpisodeT: 6, Reward: 16.94
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1592, EpisodeNum: 167, SampleNum: 1759, ReplayBSize: 1759
+hopper_3 === EpisodeT: 10, Reward: 10.90
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1603, EpisodeNum: 168, SampleNum: 1771, ReplayBSize: 1771
+hopper_3 === EpisodeT: 11, Reward: 14.75
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1607, EpisodeNum: 169, SampleNum: 1776, ReplayBSize: 1776
+hopper_3 === EpisodeT: 4, Reward: 19.68
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1614, EpisodeNum: 170, SampleNum: 1784, ReplayBSize: 1784
+hopper_3 === EpisodeT: 7, Reward: 16.04
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1623, EpisodeNum: 171, SampleNum: 1794, ReplayBSize: 1794
+hopper_3 === EpisodeT: 9, Reward: 17.32
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1633, EpisodeNum: 172, SampleNum: 1805, ReplayBSize: 1805
+hopper_3 === EpisodeT: 10, Reward: 13.67
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1644, EpisodeNum: 173, SampleNum: 1817, ReplayBSize: 1817
+hopper_3 === EpisodeT: 11, Reward: 19.24
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1650, EpisodeNum: 174, SampleNum: 1824, ReplayBSize: 1824
+hopper_3 === EpisodeT: 6, Reward: 17.60
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1658, EpisodeNum: 175, SampleNum: 1833, ReplayBSize: 1833
+hopper_3 === EpisodeT: 8, Reward: 19.46
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1664, EpisodeNum: 176, SampleNum: 1840, ReplayBSize: 1840
+hopper_3 === EpisodeT: 6, Reward: 19.35
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1670, EpisodeNum: 177, SampleNum: 1847, ReplayBSize: 1847
+hopper_3 === EpisodeT: 6, Reward: 16.99
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1678, EpisodeNum: 178, SampleNum: 1856, ReplayBSize: 1856
+hopper_3 === EpisodeT: 8, Reward: 15.26
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1697, EpisodeNum: 179, SampleNum: 1876, ReplayBSize: 1876
+hopper_3 === EpisodeT: 19, Reward: 4.36
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1706, EpisodeNum: 180, SampleNum: 1886, ReplayBSize: 1886
+hopper_3 === EpisodeT: 9, Reward: 18.56
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1716, EpisodeNum: 181, SampleNum: 1897, ReplayBSize: 1897
+hopper_3 === EpisodeT: 10, Reward: 18.34
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1723, EpisodeNum: 182, SampleNum: 1905, ReplayBSize: 1905
+hopper_3 === EpisodeT: 7, Reward: 20.10
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 1734, EpisodeNum: 183, SampleNum: 1917, ReplayBSize: 1917
+hopper_3 === EpisodeT: 11, Reward: 15.23
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1740, EpisodeNum: 184, SampleNum: 1924, ReplayBSize: 1924
+hopper_3 === EpisodeT: 6, Reward: 16.95
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 1745, EpisodeNum: 185, SampleNum: 1930, ReplayBSize: 1930
+hopper_3 === EpisodeT: 5, Reward: 16.70
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1751, EpisodeNum: 186, SampleNum: 1937, ReplayBSize: 1937
+hopper_3 === EpisodeT: 6, Reward: 17.85
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 1761, EpisodeNum: 187, SampleNum: 1948, ReplayBSize: 1948
+hopper_3 === EpisodeT: 10, Reward: 12.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1767, EpisodeNum: 188, SampleNum: 1955, ReplayBSize: 1955
+hopper_3 === EpisodeT: 6, Reward: 17.26
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1771, EpisodeNum: 189, SampleNum: 1960, ReplayBSize: 1960
+hopper_3 === EpisodeT: 4, Reward: 19.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1784, EpisodeNum: 190, SampleNum: 1974, ReplayBSize: 1974
+hopper_3 === EpisodeT: 13, Reward: 22.11
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1795, EpisodeNum: 191, SampleNum: 1986, ReplayBSize: 1986
+hopper_3 === EpisodeT: 11, Reward: 11.54
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1800, EpisodeNum: 192, SampleNum: 1992, ReplayBSize: 1992
+hopper_3 === EpisodeT: 5, Reward: 18.13
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 1807, EpisodeNum: 193, SampleNum: 2000, ReplayBSize: 2000
+hopper_3 === EpisodeT: 7, Reward: 16.37
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1817, EpisodeNum: 194, SampleNum: 2011, ReplayBSize: 2011
+hopper_3 === EpisodeT: 10, Reward: 16.29
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1823, EpisodeNum: 195, SampleNum: 2018, ReplayBSize: 2018
+hopper_3 === EpisodeT: 6, Reward: 15.84
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1828, EpisodeNum: 196, SampleNum: 2024, ReplayBSize: 2024
+hopper_3 === EpisodeT: 5, Reward: 17.15
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 1841, EpisodeNum: 197, SampleNum: 2038, ReplayBSize: 2038
+hopper_3-v0 done. Traveled distance: This episode: 0.37, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.33, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.52, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.37, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.38, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.37, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.35, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.29, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.40, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.33, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.34, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.35, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.37, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.34, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.51, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.23, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.51, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.37, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.50, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.54, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.35, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.19, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.49, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.37, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.40, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.39, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.36, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.53, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.51, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3 === EpisodeT: 13, Reward: 18.12
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1848, EpisodeNum: 198, SampleNum: 2046, ReplayBSize: 2046
+hopper_3 === EpisodeT: 7, Reward: 15.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 1854, EpisodeNum: 199, SampleNum: 2053, ReplayBSize: 2053
+hopper_3 === EpisodeT: 6, Reward: 17.94
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 1860, EpisodeNum: 200, SampleNum: 2060, ReplayBSize: 2060
+hopper_3 === EpisodeT: 6, Reward: 18.07
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1867, EpisodeNum: 201, SampleNum: 2068, ReplayBSize: 2068
+hopper_3 === EpisodeT: 7, Reward: 19.38
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1875, EpisodeNum: 202, SampleNum: 2077, ReplayBSize: 2077
+hopper_3 === EpisodeT: 8, Reward: 14.53
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1881, EpisodeNum: 203, SampleNum: 2084, ReplayBSize: 2084
+hopper_3 === EpisodeT: 6, Reward: 15.74
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1900, EpisodeNum: 204, SampleNum: 2104, ReplayBSize: 2104
+hopper_3 === EpisodeT: 19, Reward: 0.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1905, EpisodeNum: 205, SampleNum: 2110, ReplayBSize: 2110
+hopper_3 === EpisodeT: 5, Reward: 18.76
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1913, EpisodeNum: 206, SampleNum: 2119, ReplayBSize: 2119
+hopper_3 === EpisodeT: 8, Reward: 16.91
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1921, EpisodeNum: 207, SampleNum: 2128, ReplayBSize: 2128
+hopper_3 === EpisodeT: 8, Reward: 16.20
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1931, EpisodeNum: 208, SampleNum: 2139, ReplayBSize: 2139
+hopper_3 === EpisodeT: 10, Reward: 18.49
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1938, EpisodeNum: 209, SampleNum: 2147, ReplayBSize: 2147
+hopper_3 === EpisodeT: 7, Reward: 14.69
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1951, EpisodeNum: 210, SampleNum: 2161, ReplayBSize: 2161
+hopper_3 === EpisodeT: 13, Reward: 13.40
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1959, EpisodeNum: 211, SampleNum: 2170, ReplayBSize: 2170
+hopper_3 === EpisodeT: 8, Reward: 14.21
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1966, EpisodeNum: 212, SampleNum: 2178, ReplayBSize: 2178
+hopper_3 === EpisodeT: 7, Reward: 19.32
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.10, TotalT: 1974, EpisodeNum: 213, SampleNum: 2187, ReplayBSize: 2187
+hopper_3 === EpisodeT: 8, Reward: 12.48
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 1992, EpisodeNum: 214, SampleNum: 2206, ReplayBSize: 2206
+hopper_3 === EpisodeT: 18, Reward: 13.74
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2002, EpisodeNum: 215, SampleNum: 2217, ReplayBSize: 2217
+hopper_3 === EpisodeT: 10, Reward: 13.08
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2019, EpisodeNum: 216, SampleNum: 2235, ReplayBSize: 2235
+hopper_3 === EpisodeT: 17, Reward: 11.06
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 2033, EpisodeNum: 217, SampleNum: 2250, ReplayBSize: 2250
+hopper_3 === EpisodeT: 14, Reward: 21.86
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 2040, EpisodeNum: 218, SampleNum: 2258, ReplayBSize: 2258
+hopper_3 === EpisodeT: 7, Reward: 17.98
+Changing args.expl_noise from 3.0 to 0.2.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2046, EpisodeNum: 219, SampleNum: 2265, ReplayBSize: 2265
+hopper_3 === EpisodeT: 6, Reward: 19.98
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2051, EpisodeNum: 220, SampleNum: 2271, ReplayBSize: 2271
+hopper_3 === EpisodeT: 5, Reward: 17.15
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2057, EpisodeNum: 221, SampleNum: 2278, ReplayBSize: 2278
+hopper_3 === EpisodeT: 6, Reward: 15.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2063, EpisodeNum: 222, SampleNum: 2285, ReplayBSize: 2285
+hopper_3 === EpisodeT: 6, Reward: 15.66
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 2069, EpisodeNum: 223, SampleNum: 2292, ReplayBSize: 2292
+hopper_3 === EpisodeT: 6, Reward: 16.43
+Changing args.batch_size from 1500 to 100.
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.11, TotalT: 2074, EpisodeNum: 224, SampleNum: 2298, ReplayBSize: 2298
+hopper_3 === EpisodeT: 5, Reward: 17.64
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.12, TotalT: 2080, EpisodeNum: 225, SampleNum: 2305, ReplayBSize: 2305
+hopper_3 === EpisodeT: 6, Reward: 15.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 2086, EpisodeNum: 226, SampleNum: 2312, ReplayBSize: 2312
+hopper_3 === EpisodeT: 6, Reward: 15.97
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.13, TotalT: 2091, EpisodeNum: 227, SampleNum: 2318, ReplayBSize: 2318
+hopper_3 === EpisodeT: 5, Reward: 17.17
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 2097, EpisodeNum: 228, SampleNum: 2325, ReplayBSize: 2325
+hopper_3 === EpisodeT: 6, Reward: 16.58
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.14, TotalT: 2102, EpisodeNum: 229, SampleNum: 2331, ReplayBSize: 2331
+hopper_3 === EpisodeT: 5, Reward: 17.89
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 2108, EpisodeNum: 230, SampleNum: 2338, ReplayBSize: 2338
+hopper_3 === EpisodeT: 6, Reward: 15.29
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.15, TotalT: 2115, EpisodeNum: 231, SampleNum: 2346, ReplayBSize: 2346
+hopper_3 === EpisodeT: 7, Reward: 14.67
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 2121, EpisodeNum: 232, SampleNum: 2353, ReplayBSize: 2353
+hopper_3 === EpisodeT: 6, Reward: 17.63
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.16, TotalT: 2127, EpisodeNum: 233, SampleNum: 2360, ReplayBSize: 2360
+hopper_3 === EpisodeT: 6, Reward: 17.60
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 2132, EpisodeNum: 234, SampleNum: 2366, ReplayBSize: 2366
+hopper_3 === EpisodeT: 5, Reward: 16.93
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 2138, EpisodeNum: 235, SampleNum: 2373, ReplayBSize: 2373
+hopper_3 === EpisodeT: 6, Reward: 16.10
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.17, TotalT: 2143, EpisodeNum: 236, SampleNum: 2379, ReplayBSize: 2379
+hopper_3 === EpisodeT: 5, Reward: 16.39
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 2149, EpisodeNum: 237, SampleNum: 2386, ReplayBSize: 2386
+hopper_3 === EpisodeT: 6, Reward: 16.15
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.18, TotalT: 2154, EpisodeNum: 238, SampleNum: 2392, ReplayBSize: 2392
+hopper_3 === EpisodeT: 5, Reward: 17.13
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.19, TotalT: 2161, EpisodeNum: 239, SampleNum: 2400, ReplayBSize: 2400
+hopper_3 === EpisodeT: 7, Reward: 14.51
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.20, TotalT: 2166, EpisodeNum: 240, SampleNum: 2406, ReplayBSize: 2406
+hopper_3 === EpisodeT: 5, Reward: 17.34
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.20, TotalT: 2171, EpisodeNum: 241, SampleNum: 2412, ReplayBSize: 2412
+hopper_3 === EpisodeT: 5, Reward: 16.76
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.20, TotalT: 2176, EpisodeNum: 242, SampleNum: 2418, ReplayBSize: 2418
+hopper_3 === EpisodeT: 5, Reward: 16.69
+Start training.
+End training.
+--------------------------------------------------
+ExpID: 8, FPS: 17.21, TotalT: 2183, EpisodeNum: 243, SampleNum: 2426, ReplayBSize: 2426
+hopper_3 === EpisodeT: 7, Reward: 14.90
+pybullet build time: May 28 2020 16:36:16
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+argc=2
+argv[0] = --unused
+argv[1] = --start_demo_name=Physics Server
+ExampleBrowserThreadFunc started
+X11 functions dynamically loaded using dlopen/dlsym OK!
+X11 functions dynamically loaded using dlopen/dlsym OK!
+Creating context
+Created GL 3.3 context
+Direct GLX rendering context obtained
+Making context current
+GL_VENDOR=NVIDIA Corporation
+GL_RENDERER=GeForce GTX 1070/PCIe/SSE2
+GL_VERSION=3.3.0 NVIDIA 435.21
+GL_SHADING_LANGUAGE_VERSION=3.30 NVIDIA via Cg compiler
+pthread_getconcurrency()=0
+Version = 3.3.0 NVIDIA 435.21
+Vendor = NVIDIA Corporation
+Renderer = GeForce GTX 1070/PCIe/SSE2
+b3Printf: Selected demo: Physics Server
+startThreads creating 1 threads.
+starting thread 0
+started thread 0 
+MotionThreadFunc thread started
+ven = NVIDIA Corporation
+ven = NVIDIA Corporation
+b3Printf: b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,3433]:
+
+b3Printf: /home/liusida/thesis/code/modular-rl-fork/src/envs/xmls/hopper_3.xml:16: unhandled root element 'light'
+b3Printf: b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,3433]:
+
+b3Printf: /home/liusida/thesis/code/modular-rl-fork/src/envs/xmls/hopper_3.xml:19: unknown field 'camera'
+b3Printf: b3Warning[examples/SharedMemory/PhysicsServerCommandProcessor.cpp,3433]:
+
+b3Printf: /home/liusida/thesis/code/modular-rl-fork/src/envs/xmls/hopper_3.xml:20: unknown field 'camera'
+numActiveThreads = 0
+stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
+finished
+numActiveThreads = 0
+btShutDownExampleBrowser stopping threads
+Thread with taskId 0 exiting
+Thread TERMINATED
+destroy semaphore
+semaphore destroyed
+destroy main semaphore
+main semaphore destroyed
+
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.43, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.48, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.42, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.47, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.44, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.40, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.46, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.45, Best so far: 0.55
+hopper_3-v0 done. Traveled distance: This episode: 0.41, Best so far: 0.55

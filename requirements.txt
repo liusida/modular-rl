@@ -58,3 +58,4 @@ wheel==0.33.6
 baselines==0.1.5
 git+git://github.com/CampagneLaboratory/torchfold@c2ac41b#egg=torchfold
 
+pybullet==2.7.9

@@ -103,6 +103,7 @@ class TD3(object):
     def train(self, replay_buffer_list, iterations_list, batch_size=100, discount=0.99,
               tau=0.005, policy_noise=0.2, noise_clip=0.5, policy_freq=2, graphs=None, envs_train_names=None):
         per_morph_iter = sum(iterations_list) // len(envs_train_names)
+        # per_morph_iter = 2 # At the end of each episode, only train twice, not so many times. Increase batch size to train more.
         for env_name in envs_train_names:
             replay_buffer = replay_buffer_list[env_name]
             self.change_morphology(graphs[env_name])

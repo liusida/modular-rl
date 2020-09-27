@@ -12,6 +12,7 @@ from baselines.common.vec_env.subproc_vec_env import SubprocVecEnv
 import checkpoint as cp
 from config import *
 
+import manual_control
 
 def train(args):
 
@@ -53,7 +54,7 @@ def train(args):
     print("#" * 50 + '\ntraining envs: {}\n'.format(envs_train_names) + "#" * 50)
 
     # Set up training env and policy ================================================
-    args.limb_obs_size, args.max_action = utils.registerEnvs(envs_train_names, args.max_episode_steps, args.custom_xml)
+    args.limb_obs_size, args.max_action = utils.registerEnvs(envs_train_names, args.max_episode_steps, args.custom_xml, render=args.render)
     max_num_limbs = max([len(args.graphs[env_name]) for env_name in envs_train_names])
     # create vectorized training env
     obs_max_len = max([len(args.graphs[env_name]) for env_name in envs_train_names]) * args.limb_obs_size
@@ -103,11 +104,20 @@ def train(args):
 
         # train and log after one episode for each env
         if collect_done:
+            # try to manually control learning rate
+            args = manual_control.reload_config("manual_control.ini", args)
+            if args.clear_replay_buffer:
+                for i,b in replay_buffer.items():
+                    b.clear()
+                print(f"replay_buffer cleared.")
+
             # log updates and train policy
             if this_training_timesteps != 0:
+                print("Start training.")
                 policy.train(replay_buffer, episode_timesteps_list, args.batch_size,
                             args.discount, args.tau, args.policy_noise, args.noise_clip,
                             args.policy_freq, graphs=args.graphs, envs_train_names=envs_train_names[:num_envs_train])
+                print("End training.")
                 # add to tensorboard display
                 for i in range(num_envs_train):
                     writer.add_scalar('{}_episode_reward'.format(envs_train_names[i]), episode_reward_list[i], total_timesteps)
@@ -144,6 +154,7 @@ def train(args):
         # start sampling ===========================================================
         # sample action randomly for sometime and then according to the policy
         if total_timesteps < args.start_timesteps:
+            # print("Random action")
             action_list = [np.random.uniform(low=envs_train.action_space.low[0],
                                              high=envs_train.action_space.high[0],
                                              size=max_num_limbs) for i in range(num_envs_train)]

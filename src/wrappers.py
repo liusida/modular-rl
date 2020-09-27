@@ -15,7 +15,7 @@ class ModularEnvWrapper(gym.Wrapper):
         else:
             self.obs_max_len = self.env.observation_space.shape[0]
         self.action_len = self.env.action_space.shape[0]
-        self.num_limbs = len(self.env.model.body_names[1:])
+        self.num_limbs = len(self.env.robot.ordered_joints)+1
         self.limb_obs_size = self.env.observation_space.shape[0] // self.num_limbs
         self.max_action = float(self.env.action_space.high[0])
         self.xml = self.env.xml
@@ -54,7 +54,7 @@ class IdentityWrapper(gym.Wrapper):
     """wrapper with useful attributes and helper functions"""
     def __init__(self, env):
         super(IdentityWrapper, self).__init__(env)
-        self.num_limbs = len(self.env.model.body_names[1:])
+        self.num_limbs = len(self.env.robot.ordered_joints)+1
         self.limb_obs_size = self.env.observation_space.shape[0] // self.num_limbs
         self.max_action = float(self.env.action_space.high[0])
 
